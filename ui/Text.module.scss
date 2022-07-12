@@ -1,0 +1,39 @@
+.Main {
+  font-family: Roboto;
+
+  &__weight {
+    &-light {
+      font-weight: 300;
+    }
+
+    &-regular {
+      font-weight: 400;
+    }
+
+    &-bold {
+      font-weight: 700;
+    }
+  }
+
+  &__size {
+    &-s {
+      font-size: 0.75rem;
+    }
+
+    &-m {
+      font-size: 0.95rem;
+    }
+
+    &-l {
+      font-size: 1.15rem;
+    }
+
+    &-xl {
+      font-size: 1.35rem;
+    }
+
+    &-xxl {
+      font-size: 1.55rem;
+    }
+  }
+}
